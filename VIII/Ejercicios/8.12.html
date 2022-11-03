@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    var i=1, j=2,k=3, m=2;
+    document.writeln(i==1);
+    document.writeln(j==3);
+    document.writeln(i>=1 && j<4 );
+    document.writeln(m<=99 && k<m);
+    document.writeln(j>=i || k==m);
+    document.writeln(k+m<j||3-j>=k);
+    document.writeln(!(k>m));
+</script>
+<body>
+    <p>Suponga que i=1, j=2,k=3 y m=2. ¿Qué es lo que imprime cada una de las  siguientes instrucciones? ¿Son 
+        necesarios los paréntcesis en cada caso?</p>
+    <p>1.- document.writeln(i=1); <mark>True, si es necesario</mark> </p>
+    <p>2.- document.writeln(j=3); <mark>False, si es necesario</mark></p>
+    <!-- &gt;>  &lt;<	 -->
+    <p>3.- document.writeln(i&gt;=1 && j&lt;4 );<mark>True,si es necesario</mark></p>
+    <p>4.- document.writeln(m&lt;=99 && k&lt;m); <mark>False,si es necesario</mark></p>
+    <p>5.- document.writeln(j&gt;=i || k==m);<mark>True,si es necesario</mark></p>
+    <p>6.- document.writeln(k+m&lt;j||3-j&gt;=k);<mark>False,si es necesario</mark></p>
+    <p>7.- document.writeln(!(k&gt;m));<mark>False,si es necesario</mark></p>
+</body>
+</html>
